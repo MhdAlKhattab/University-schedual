@@ -1,0 +1,629 @@
+[
+	{
+		"const": {
+			"weakDays": [
+				"SUN",
+				"MON",
+				"TUE",
+				"WED",
+				"THU"
+			],
+			"dayHours": 8,
+			"startHour": "08:30",
+			"yearNum": 5,
+			"specializations": ["Software", "AI", "Network"],
+			"sectoinNum": {
+				"1": 3,
+				"2": 3,
+				"3": 2,
+				"4": [1, 1, 1],
+				"5": [1, 1, 1]
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 1,
+			"name": "Victor",
+			"isProf": true,
+			"availableTime": {
+				"SUN": [
+					"13:00",
+					"15:00"
+				],
+				"WED": [
+					"11:00",
+					"13:30"
+				]
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 2,
+			"name": "Red",
+			"isProf": true,
+			"availableTime": {
+				"SUN": [
+					"11:30",
+					"13:30"
+				],
+				"WED": [
+					"11:30",
+					"13:30"
+				]
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 3,
+			"name": "Philip",
+			"isProf": false,
+			"availableTime": {
+				"SUN": [],
+				"MON": [],
+				"TUE": [
+					"08:30",
+					"16:30"
+				],
+				"THU": [
+					"08:30",
+					"16:30"
+				]
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 4,
+			"name": "Marry",
+			"isProf": true,
+			"availableTime": {
+				"WED": [],
+				"THU": []
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 5,
+			"name": "Don",
+			"isProf": true,
+			"availableTime": {
+				"TUE": [
+					"10:30",
+					"12:30"
+				],
+				"MON": [
+					"13:30",
+					"15:30"
+				]
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 6,
+			"name": "Mark",
+			"isProf": false,
+			"availableTime": {
+				"SUN": [],
+				"MON": [],
+				"TUE": [],
+				"THU": []
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 7,
+			"name": "Peter",
+			"isProf": true,
+			"availableTime": {
+				"MON": [
+					"08:30",
+					"12:30"
+				]
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 8,
+			"name": "John",
+			"isProf": true,
+			"availableTime": {
+				"MON": []
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 9,
+			"name": "Ben",
+			"isProf": false,
+			"availableTime": {
+				"TUE": [],
+				"THU": [
+					"09:00",
+					"16:00"
+				],
+				"WED": [
+					"09:30",
+					"16:00"
+				]
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 10,
+			"name": "Mike",
+			"isProf": true,
+			"availableTime": {
+				"THU": [
+					"13:30",
+					"16:30"
+				]
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 11,
+			"name": "Steve",
+			"isProf": true,
+			"availableTime": {
+				"SUN": [],
+				"THU": [
+					"08:30",
+					"13:30"
+				],
+				"WED": []
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 12,
+			"name": "Ann",
+			"isProf": true,
+			"availableTime": {
+				"SUN": [
+					"08:30",
+					"11:30"
+				],
+				"MON": [
+					"09:30",
+					"11:30"
+				]
+			}
+		}
+	},
+	{
+		"prof": {
+			"id": 13,
+			"name": "Alex",
+			"isProf": true,
+			"availableTime": {
+				"TUE": []
+			}
+		}
+	},
+	{
+		"course": {
+			"id": 1,
+			"name": "Introduction to Programming",
+			"year": 4,
+			"specialization": "Software"
+		}
+	},
+	{
+		"course": {
+			"id": 2,
+			"name": "Introduction to Computer Architecture",
+			"year": 4,
+			"specialization": "Network"
+		}
+	},
+	{
+		"course": {
+			"id": 3,
+			"name": "Business Applications",
+			"year": 4,
+			"specialization": "AI"
+		}
+	},
+	{
+		"course": {
+			"id": 4,
+			"name": "English",
+			"year": 5,
+			"specialization": "AI"
+		}
+	},
+	{
+		"course": {
+			"id": 5,
+			"name": "Discrete Mathematic I",
+			"year": 5,
+			"specialization": "Network"
+		}
+	},
+	{
+		"course": {
+			"id": 6,
+			"name": "Linear Algebra",
+			"year": 5,
+			"specialization": "Software"
+		}
+	},
+	{
+		"course": {
+			"id": 7,
+			"name": "Introduction to Information Technology I",
+			"year": 3,
+			"specialization": ""
+		}
+	},
+	{
+		"course": {
+			"id": 8,
+			"name": "System Administration and Maintenance I",
+			"year": 2,
+			"specialization": ""
+		}
+	},
+	{
+		"room": {
+			"name": "R3",
+			"lab": true,
+			"size": 24
+		}
+	},
+	{
+		"room": {
+			"name": "R7",
+			"lab": false,
+			"size": 60
+		}
+	},
+	{
+		"room": {
+			"name": "R9",
+			"lab": false,
+			"size": 60
+		}
+	},
+	{
+		"group": {
+			"id": 1,
+			"name": "1O1",
+			"size": 19
+		}
+	},
+	{
+		"group": {
+			"id": 2,
+			"name": "1O2",
+			"size": 19
+		}
+	},
+	{
+		"group": {
+			"id": 3,
+			"name": "1O3",
+			"size": 19
+		}
+	},
+	{
+		"group": {
+			"id": 4,
+			"name": "1S1",
+			"size": 19
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				1
+			],
+			"course": 8,
+			"duration": 2,
+			"section": 0,
+			"groups": [
+				1,
+				2
+			]
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				1
+			],
+			"course": 1,
+			"duration": 2,
+			"section": 1,
+			"groups": [
+				3,
+				4
+			]
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				9
+			],
+			"course": 8,
+			"duration": 3,
+			"section": 1,
+			"group": 1,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				6
+			],
+			"course": 8,
+			"duration": 3,
+			"section": 1,
+			"group": 2,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				9
+			],
+			"course": 1,
+			"duration": 3,
+			"section": 1,
+			"group": 3,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				9
+			],
+			"course": 1,
+			"duration": 3,
+			"section": 1,
+			"group": 4,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				2
+			],
+			"course": 2,
+			"duration": 2,
+			"section": 1,
+			"group": [
+				3,
+				4
+			]
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				2
+			],
+			"course": 2,
+			"duration": 2,
+			"section": 1,
+			"group": [
+				1,
+				2
+			]
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				3
+			],
+			"course": 2,
+			"duration": 2,
+			"section": 1,
+			"group": 1,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				3
+			],
+			"course": 2,
+			"duration": 2,
+			"section": 1,
+			"group": 2,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				3
+			],
+			"course": 2,
+			"duration": 2,
+			"section": 1,
+			"group": 3,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				3
+			],
+			"course": 2,
+			"duration": 2,
+			"section": 1,
+			"group": 4,
+			"lab": true
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				4,
+				11
+			],
+			"course": 4,
+			"duration": 2,
+			"section": 1,
+			"group": [
+				3,
+				4
+			]
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				4,
+				11
+			],
+			"course": 4,
+			"duration": 2,
+			"section": 1,
+			"group": [
+				1,
+				2
+			]
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				5
+			],
+			"course": 6,
+			"duration": 2,
+			"section": 1,
+			"group": [
+				1,
+				2,
+				3
+			]
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				7
+			],
+			"course": 5,
+			"duration": 2,
+			"section": 1,
+			"group": [
+				1,
+				2
+			]
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				7
+			],
+			"course": 5,
+			"duration": 2,
+			"section": 1,
+			"group": [
+				3,
+				4
+			]
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				10
+			],
+			"course": 5,
+			"duration": 2,
+			"section": 1,
+			"group": 3
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				8
+			],
+			"course": 3,
+			"duration": 2,
+			"section": 1,
+			"group": 2
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				8
+			],
+			"course": 3,
+			"duration": 2,
+			"section": 1,
+			"group": 3
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				12
+			],
+			"course": 3,
+			"duration": 2,
+			"section": 1,
+			"group": 1
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				12
+			],
+			"course": 3,
+			"duration": 2,
+			"section": 1,
+			"group": 4
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				11
+			],
+			"course": 7,
+			"duration": 2,
+			"section": 1,
+			"group": 4
+		}
+	},
+	{
+		"class": {
+			"professors": [
+				13
+			],
+			"course": 8,
+			"duration": 2,
+			"section": 1,
+			"group": 4
+		}
+	}
+]
